@@ -1,0 +1,267 @@
+* {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #0D0D0D;
+}
+
+.wrap {
+  font-family: "Roboto", sans-serif;
+  padding: 1em;
+}
+
+.firstpagewrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80vh;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20vh;
+  width: 100%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 2em;
+}
+
+.signin {
+  background-color: #ffffff;
+  border-radius: 2em;
+  padding: 0.3em;
+  width: 50%;
+}
+
+.signin h2 {
+  color: #0597F2;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/* sign up button */
+.signup {
+  background-color: #ffffff;
+  border-radius: 2em;
+  padding: 0.3em;
+  width: 50%;
+}
+
+.signup h2 {
+  color: #0597F2;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.logo {
+  height: 20vh;
+  background-image: url(assets/ShareMeLogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5em;
+  margin-top: 13em;
+}
+
+.minilogo {
+  background-image: url(assets/ShareMeLogo.png);
+  height: 10vh;
+  width: 25%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.signinheader {
+  margin-top: 10vh;
+}
+
+.signinheader h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signinform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30vh;
+  padding: 1em;
+}
+
+.signinform .formitem {
+  background-color: #0D0D0D;
+  color: #0597F2;
+  border: 0px;
+  border-bottom: thin solid #0597F2;
+  min-width: 100%;
+  padding: 0.4em;
+  margin-bottom: 2em;
+}
+
+.signinform .formitem::-webkit-input-placeholder {
+  color: #0597F2;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.signinform .formitem:-ms-input-placeholder {
+  color: #0597F2;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.signinform .formitem::-ms-input-placeholder {
+  color: #0597F2;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.signinform .formitem::placeholder {
+  color: #0597F2;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.signinform .formitem:focus {
+  outline: none;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  border-bottom: #0597F2 solid medium;
+}
+
+.signinform .signinbutton {
+  background-color: #ffffff;
+  border-radius: 2em;
+  padding: 0.3em;
+  width: 70%;
+  color: #0597F2;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0 auto;
+  display: block;
+  border: none;
+}
+
+.signupheader {
+  margin-top: 10vh;
+}
+
+.signupheader h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25vh;
+  padding: 1em;
+}
+
+.signup_form .formitem {
+  background-color: #0D0D0D;
+  color: #0597F2;
+  border: 0px;
+  border-bottom: thin solid #0597F2;
+  min-width: 100%;
+  padding: 0.4em;
+  margin-bottom: 2em;
+}
+
+.signup_form .formitem::-webkit-input-placeholder {
+  color: #0597F2;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup_form .formitem:-ms-input-placeholder {
+  color: #0597F2;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup_form .formitem::-ms-input-placeholder {
+  color: #0597F2;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup_form .formitem::placeholder {
+  color: #0597F2;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup_form .formitem:focus {
+  outline: none;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  border-bottom: #0597F2 solid medium;
+}
+
+.signup_form .signupbutton {
+  background-color: #ffffff;
+  border-radius: 2em;
+  padding: 0.3em;
+  width: 70%;
+  color: #0597F2;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0 auto;
+  display: block;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
